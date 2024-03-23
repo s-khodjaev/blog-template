@@ -217,3 +217,16 @@ a {
   text-decoration: underline;
   color: #fff;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #page-container {
+    flex-direction: column;
+  }
+
+  #main-footer > * {
+    text-align: center;
+    justify-content: center;
+  }
+}
